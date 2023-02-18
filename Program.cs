@@ -1,5 +1,4 @@
 ﻿using ptmkcs;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 static string[] ParseCmd(string[] args)
 {

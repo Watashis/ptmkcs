@@ -1,8 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Xml.Linq;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace ptmkcs
 {
@@ -86,8 +83,7 @@ namespace ptmkcs
         public void Generate()
         {
             var abc = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z".Split(" ");
-            Random rnd = new Random();
-            Console.WriteLine(abc.Length);
+            Random rnd = new();
             for (int i = 0; i < 1000001; i++)
             {
                 var f = rnd.Next(0, 25);
