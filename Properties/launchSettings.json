@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ptmkcs": {
+      "commandName": "Project",
+      "commandLineArgs": "2 Иванов Иван Сергеевич 20.20.2020 se"
+    }
+  }
+}
